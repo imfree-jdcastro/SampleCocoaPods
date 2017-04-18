@@ -15,21 +15,17 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "ThreeRingControl"
+  s.name         = "ThreeRingControl" 
   s.version      = "1.0.0"
   s.summary      = "A three-ring control like the Activity status bars"
-  s.description  = "The three-ring is a completely customizable widget that can be used in any iOS app. It also plays a little victory fanfare."
-  s.homepage     = "http://raywenderlich.com"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
-
-  s.homepage     = "http://EXAMPLE/ThreeRingControl"
+  s.description  = "The three-ring is a completely customizable widget that can be used in any iOS app. It also plays a little victory fanfare."
+  s.homepage     = "http://raywenderlich.com/"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
