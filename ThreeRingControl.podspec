@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name         = 'ThreeRingControl'
-  s.version      = '1.0.0'
+  s.version      = '1.0.1'
   s.summary      = 'A three-ring control like the Activity status bars'
   s.description  = 'The three-ring is a completely customizable widget that can be used in any iOS app. It also plays a little victory fanfare.'
   s.homepage     = 'https://github.com/imfree-jdcastro/SampleCocoaPods'
   s.license      = { :type => 'MIT', :file => 'license.md'}
   s.authors      = { 'JD Castro' => 'jd@imfreemobile.com' }
   s.platform     = :ios, '10.0'
-  s.source       = { :git => 'https://github.com/imfree-jdcastro/SampleCocoaPods.git', :tag => '1.0.0' }
+  s.source       = { :git => 'https://github.com/imfree-jdcastro/SampleCocoaPods.git', :tag => '1.0.1' }
   s.source_files = 'ThreeRingControl', 'ThreeRingControl/**/*.{h,m,swift}'
   s.exclude_files = 'Classes/Exclude'
   s.resources    = 'ThreeRingControl/*.mp3'
